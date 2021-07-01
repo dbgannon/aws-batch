@@ -1,0 +1,41 @@
+  Job id: c5e8f53f-618d-46ca-85a5-df3919c1c7ee#0
+  Initializing the environment...
+  Starting ssh agents...
+  Agent pid 7
+  Identity added: /root/.ssh/id_rsa (/root/.ssh/id_rsa)
+  Mounting /home...
+  Mounting shared file system...
+  Detected 1/3 compute nodes. Waiting for all compute nodes to start.
+  Detected 1/3 compute nodes. Waiting for all compute nodes to start.
+  Detected 1/3 compute nodes. Waiting for all compute nodes to start.
+  Detected 3/3 compute nodes. Waiting for all compute nodes to start.
+  Starting the job...
+  ip container: 10.0.29.29
+  ip host: 10.0.16.13
+  Hello I'm the main node ip-10-0-29-29.us-west-2.compute.internal! I run the mpi job!
+  Compiling...
+  Running...
+  Warning: Permanently added '10.0.21.148' (RSA) to the list of known hosts.
+  Warning: Permanently added '10.0.17.56' (RSA) to the list of known hosts.
+  Hello world from processor ip-10-0-29-29.us-west-2.compute.internal, rank 1 out of 6 processors
+  process 1 recieving now
+  Hello world from processor ip-10-0-29-29.us-west-2.compute.internal, rank 0 out of 6 processors
+  process 0 sending
+  Process 1 received number 11 from process 0
+  process 1 sending
+  Hello world from processor ip-10-0-21-148.us-west-2.compute.internal, rank 5 out of 6 processors
+  process 5 recieving now
+  Hello world from processor ip-10-0-17-56.us-west-2.compute.internal, rank 2 out of 6 processors
+  process 2 recieving now
+  Hello world from processor ip-10-0-21-148.us-west-2.compute.internal, rank 4 out of 6 processors
+  process 4 recieving now
+  Hello world from processor ip-10-0-17-56.us-west-2.compute.internal, rank 3 out of 6 processors
+  process 3 recieving now
+  Process 2 received number 12 from process 1
+  process 2 sending
+  Process 3 received number 13 from process 2
+  process 3 sending
+  Process 4 received number 14 from process 3
+  process 4 sending
+  Process 5 received number 15 from process 4
+[eSS
