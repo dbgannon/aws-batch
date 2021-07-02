@@ -3,3 +3,6 @@ This is the repo for the aws-batch and aws MPI example.   There are two docker f
 
 for the MPI program there is the aws_batchcconfig.config file.  you will need to modify the networking.   the MPI C program mpi_hello_world.c and the script for submitting it from the head node is submmit_mpi.sh
 
+The article is here https://cloud4scieng.org/cloud-hpc-part-2-aws-batch-and-mpi-parallel-programs/
+
+
